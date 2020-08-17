@@ -1,0 +1,32 @@
+.wrapper {
+  display: inline-block;
+}
+
+.main {
+  border: 2px solid black;
+  margin: 10px;
+  height: 200px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.author {
+  font-size: 20px;
+  font-weight: 1000;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
